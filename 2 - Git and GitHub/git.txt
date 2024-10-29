@@ -18,10 +18,28 @@ git add .
 //git commit -m "Message"
 
 // Add a branch to our repository
-git branch "Branch Name"
+git branch "BranchName"
 
 // List all branches
 git branch -add
 
 // Switch to another branch
-git checkout Branch Name
+git checkout BranchName
+
+//merging branch to the main branch
+git merge BranchName
+
+//removing branch
+git branch -d [branchname]
+
+//Connect to a remote repository (such as GitHub).
+git remote add [URL]
+
+//Change the master branch's name (into "main" for consistency with Mac users).
+git branch -M main
+
+//Push a local repository into a newly connected remote repository.
+git push -u origin main
+
+//Push updates to the connected remote repository.
+git push
