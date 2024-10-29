@@ -16,3 +16,12 @@ git init
 git add .
 
 //git commit -m "Message"
+
+// Add a branch to our repository
+git branch "Branch Name"
+
+// List all branches
+git branch -add
+
+// Switch to another branch
+git checkout Branch Name
